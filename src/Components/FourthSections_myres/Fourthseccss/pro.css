@@ -1,0 +1,171 @@
+
+
+:root{
+    --c1:white;
+    --c2:#BDD4FF;
+    --background:linear-gradient(.5turn,white,#BDD4FF);
+    --color:color-mix(in srgb,white 20%,#BDD4FF);
+    --c3:#ff5757;
+}
+
+
+.pro_main{
+    height: 550px;
+    width: 85vw;
+    /* background-image: var(--background); */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.technical{
+    /* border: 1px solid crimson; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.professi{
+    padding-top: 10px;
+    padding-top: 20px;
+    /* border: 1px solid crimson; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.head{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.pr{
+    width: 500px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(170, 169, 169);
+    display: flex;
+    align-items: center;
+}
+.per{
+    font-weight: bold;
+    font-size:8px;
+    color:black;
+    margin-left: 3px;
+}
+
+
+.progress_r{
+    width: 400px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress 1250ms ease-in 1;
+}
+
+@keyframes progress{
+    from {
+        width: 0;
+    }
+}
+
+.lab_pro{
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(165, 42, 42);
+}
+
+
+
+.progress_n{
+    width: 450px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  700ms ease-in 1;
+}
+
+.progress_m{
+    width: 375px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  800ms ease-in 1;
+}
+
+.progress_e{
+    width: 400px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  900ms ease-in 1;
+}
+
+.progress_java{
+    width: 475px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  1000ms ease-in 1;
+}
+
+.progress_db{
+    width: 375px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  1100ms ease-in 1;
+}
+
+.progress_ty{
+    width: 350px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  1300ms ease-in 1;
+}
+
+.progress_oops{
+    width: 450px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  1200ms ease-in 1;
+}
+
+.oth{
+    font-size: 12px;
+    color: #4c0606;
+    font-weight: bold;
+}
+
+
+.profess{
+    width: 100px;
+    height: 100px;
+    border: 5px solid gray;
+    border-radius: 50%;
+}
+
+.progress_pro{
+    width: 110px;
+    height: 110px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress 1250ms ease-in 1;
+    border-radius: 50%;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.bech{
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    
+   
+}
+
+.progress_team{
+    width: 490px;
+    height: 3px;
+    background-image: linear-gradient(to right,var(--c1),var(--c3));
+    animation:progress  1200ms ease-in 1;
+}
+

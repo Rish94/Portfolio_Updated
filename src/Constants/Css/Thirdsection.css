@@ -1,0 +1,57 @@
+
+:root{
+    --c1:white;
+    --c2:#BDD4FF;
+    --background:linear-gradient(to right,white,#BDD4FF);
+    --color:color-mix(in srgb,white 20%,#BDD4FF);
+    --c3:#ff5757;
+}
+
+.comp{
+    margin-top: 10px;
+    margin-left: 5vw;
+    color:var(--c3);
+    font-weight: bold;
+}
+
+.myp{
+    margin-left: 5vw;
+    font-size: 4vw;
+    color: grey;
+    font-weight: bold;
+
+}
+
+.third_main{
+    height: 350px;
+    background-image:var(--background);
+}
+
+.third_doing{
+    width: 90vw;
+    height: 30vh;
+    /* border: 1px solid crimson; */
+    margin-left: 5vw;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.dp{
+    width: 20px;
+    margin: 15px;
+    height: 20vh;
+    border: 1px solid crimson;
+}
+
+.slick-slide {
+    margin: 0 -15px;
+  }
+  .slick-list {
+    padding:10px;
+    text-align:center;
+    margin-right:15px;
+    margin-left:15px;
+
+    
+  }

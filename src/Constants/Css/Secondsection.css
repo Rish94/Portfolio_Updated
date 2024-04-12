@@ -1,0 +1,85 @@
+
+:root{
+    --c1:white;
+    --c2:#BDD4FF;
+    --background:linear-gradient(to right,white,#BDD4FF);
+    --color:color-mix(in srgb,white 20%,#BDD4FF);
+    --c3:#ff5757;
+}
+
+.secondmain{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fea{
+    margin-top: 10px;
+    margin-left: 5vw;
+    color:var(--c3);
+    font-weight: bold;
+}
+
+.what{
+    
+    margin-left: 5vw;
+    font-size: 4vw;
+    color: grey;
+    font-weight: bold;
+}
+
+.second_doing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 5vw;
+    row-gap: 20px;
+}
+
+.second-do_parts{
+    box-shadow: 0px 0px 10px 1px rgb(203, 198, 198);
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+    background-image: var(--background);
+    padding: 5px;
+}
+.go{
+    margin-left: 85%;
+    display: none;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px 1px white;
+    width: 30px;
+    height: 30px;
+}
+
+.second-do_parts:hover{
+    background-image: linear-gradient(var(--c3),var(--c3));
+    color: white;
+}
+
+.second-do_parts:hover .go{
+    cursor: pointer;
+    display:inline-block; /*jab parent hover hoga uske baad show hona h*/
+    
+}
+
+.doc_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.doc_field{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.5vw;
+
+}
+
+.doc_para{
+    margin-left: 10px;
+    font-size: 1vw;
+}
